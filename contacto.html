@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Gilmore Girls Fan Page</title>
+  <link rel="stylesheet" href="css/estiloscolores.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="textobotton">HOME</a></li>
+        <li><a href="personajes.html" class="textobotton">Personajes</a></li>
+        <li><a href="episodios.html" class="textobotton">Episodios</a></li>
+        <li><a href="contacto.html" class="textobotton">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1 class="titulo">Contacto</h1>
+  </header>
+
+  <main>
+    <form action="mailto:TU_EMAIL@ejemplo.com?subject=Contacto%20desde%20mi%20sitio"
+          method="POST" enctype="text/plain" class="formulario">
+      
+      <label for="nombre">Nombre</label><br>
+      <input type="text" id="nombre" name="Nombre" required><br>
+
+      <label for="apellido">Apellido</label><br>
+      <input type="text" id="apellido" name="Apellido" required><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="Email" required><br>
+
+      <label for="edad">Edad</label><br>
+      <input type="number" id="edad" name="Edad" min="0"><br>
+
+      <label for="comentario">Comentario</label><br>
+      <textarea id="comentario" name="Comentario" rows="6"></textarea><br>
+
+      <input type="submit" value="Enviar" class="boton">
+      <input type="reset"  value="Limpiar" class="boton">
+    </form>
+  </main>
+
+  <footer>
+    <p class="footertexto">Autor/a: Milagros Carvajal — 2025</p>
+  </footer>
+</body>
+</html>

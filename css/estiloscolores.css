@@ -1,0 +1,90 @@
+/* --- Reset básico --- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* --- Menú de navegación --- */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  background-color: #ddd;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.textobotton {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.textobotton:hover {
+  color: #b30059; /* cambia de color al pasar el mouse */
+}
+
+/* --- Títulos --- */
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+  color: #b30059;
+}
+
+/* --- Imágenes generales --- */
+.fotopersonal {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+/* --- Sección de personajes (tarjetas) --- */
+.grilla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tarjeta {
+  width: 280px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- Formulario de contacto --- */
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario input, .formulario textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.boton {
+  background-color: #b30059;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.boton:hov
